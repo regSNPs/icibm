@@ -1,0 +1,79 @@
+CREATE TABLE `icibm2014Register` (
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+`title` varchar(250) NOT NULL DEFAULT '',
+`name` varchar(250) NOT NULL DEFAULT '',
+`lastname` varchar(250) NOT NULL DEFAULT '',
+`suffix` varchar(250) NOT NULL DEFAULT '',
+`dept` varchar(250) NOT NULL DEFAULT '',
+`institution` varchar(250) NOT NULL DEFAULT '',
+`address` varchar(250) NOT NULL DEFAULT '',
+`city` varchar(250) NOT NULL DEFAULT '',
+`state` varchar(250) NOT NULL DEFAULT '',
+`zip` varchar(250) NOT NULL DEFAULT '',
+`country` varchar(250) NOT NULL DEFAULT '',
+`position` varchar(250) NOT NULL DEFAULT '',
+`email` varchar(250) NOT NULL DEFAULT '',
+`phone` varchar(250) NOT NULL DEFAULT '',
+`paperno` varchar(250) NOT NULL DEFAULT '',
+`dietary` varchar(250) NOT NULL DEFAULT '',
+`gender` varchar(250) NOT NULL DEFAULT '',
+`ethnicity` varchar(250) NOT NULL DEFAULT '',
+`payed`  varchar(250) NOT NULL DEFAULT '',
+`paymentcode`  varchar(250) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`,`name`),
+) ENGINE=MyISAM AUTO_INCREMENT=131 DEFAULT CHARSET=latin1	
+
+
+
+
+1,Abdul Rahman,The Role of Microorganisms in Biodegrading Organochlorine Compounds in Closed Environment.
+2,Adam Cornish, A comparison of variant calling pipelines using Genome in a Bottle as a reference
+3,Akram Mohammed,Application of a hierarchical enzyme classification method reveals the role of gut microbiome in human metabolism
+4,Cheng Zhide,Pharmacological Mechanisms of JinChaiKangBingDu Capsule in Influenza A (H1N1) Explored by Network Biology Approaches
+5,Emad Ramadan,Bio-inspired Algorithm for Identifying Overlapping Clusters in Protein-Protein Interaction Networks
+6,Fan Zhang,Identification of novel alternative splicing biomarkers for breast cancer with LC/MS/MS and RNA-Seq
+7,Farouq Hatem Hamad Hamad, Development of mathematical model to predict the dynamics of dengue virus mutation
+8,Ghim Siong,Multiple signatures of a disease in potential biomarker space: Getting the signatures consensus and identification of novel biomarkers
+9,Golnaz Bahramali, Determination and Analysis of Chameleon protein sequences in the Protein Data Bank (PDB). 
+10,Hong Cai,Predicting and exploring network components involved in pathogenesis in the malaria parasite via novel subnetwork alignments 
+11,Hung-I Chen, Differential expression analysis of RNA sequencing data by incorporating non-exonic mapped reads
+12,Ishwor Thapa,Co-expression network analysis of miRNA-142 over-expression in neuronal cells
+
+13,Jasjit Banwait,Proteins localized to human mitochondria show structural element enrichment in their corresponding mRNA
+14,Jian-Yu Shi,Drug Repositioning Via Drug-Target Pair Space Built by Within-Score and Between-Score Features
+15,Jing Chen,Global transcriptome analysis profiles metabolic pathways in traditional herb Astragalus membranaceus Bge. var. mongolicus (Bge.) Hsiao
+16,Jing Wang,Dysregulated transcription across diverse cancer types reveals the importance of RNA-binding protein in carcinogenesis
+17,Jun Li,Mining functional modules in heterogeneous biological networks using Multiplex PageRank method
+18,Junbai Wang,Comprehensive genome-wide transcription factor analysis reveals that a combination of high affinity and low affinity DNA binding is needed for human gene regulation
+19,Kashish Chetal,OperomeDB: a database of condition-specific transcription units in prokaryotic genomes
+20,Kevin Zhu,Oncogenes and tumor suppressor genes: comparative genomics and network perspectives
+21,Kumarasamy Periyagounder,A study to understand the effectiveness of active compounds of Perilla frutescens in the treatment of diabetes by means of computational approach
+22,Lei Wang,How to Choose In Vitro Systems to Predict In Vivo Drug Clearance: A System Pharmacology Prospective
+23,Liang-Chin Huang,A weighted and integrated drug-target interactome: drug repurposing for schizophrenia as a use case
+24,Lin Wang,A Computational Method for Clinically Relevant Cancer Stratification and Driver Mutation Module Discovery Using Personal Genomics Profiles
+25,Lui Hui,RAMESES: A Methyltranscriptome Sequencing Database
+26,Maria Sokolova,Analysis of neurotrophic impact of blood serum of patients with spinal muscule atrophy of 2 type on growth of sensory ganglion neurites 
+27,Nguyen T. Nguyen,Systems analysis of gene ontology and biological pathways post-myocardial infarction
+28,Pei-Fang Su,Paired mitochondrial DNA data analysis using bivariate Poisson regression model
+29,Qi Liu,Assessing Computational Steps for CLIP-Seq Data Analysis
+30,Rong Xu,A genome-wide systems analysis reveals strong link between colorectal cancer and trimethylamine N-oxide (TMAO), a gut microbial metabolite of dietary meat and fat
+31,Ru Shen,Discovering distinct functional modules of specific cancer types using protein-protein interaction networks
+32,Santosh Philips,A TRANSLATIONAL BIOINFORMATIC APPROACH IN IDENTIFYING AND VALIDATING AN INTERACTION BETWEEN VITAMIN A AND CYP19A1
+33,Shilin Zhao,KEGGprofile: an analysis and visualization package for high dimensional expression data in KEGG pathway
+34,Shilin Zhao,RNAseq by Total RNA Library Identifies Additional lncRNA Compared to Poly(A) RNA library
+35,Tingting Qin,Finding pathway-modulating genes from a novel Ontology Fingerprint-derived gene network
+36,Vivek Chandramohan,Identification of novel mutational site in drug resistant strain of mycobacterium tuberculosis
+37,Weirong Cui,Discovery and characterization of long intergenic non-coding RNAs (lincRNA) module biomarkers in prostate cancer: an integrative analysis of RNA-Seq data
+38,William Budd,Next Generation Sequencing Reveals Disparate Population Frequencies Among Cytochrome P450 Genes: Clinical Pharmacogenomics of the CYP2 Family
+39,Woochang Hwang,Prediction of promoters and enhancers using multiple DNA methylation-associated features
+40,Xiaodong Wang,AN EXPLORATION OF THE RELATIONSHIP BETWEEN RESILIENCE AND QUALITY OF LIFE
+41,Xu Shi,BMRF-MI: integrative identification of protein interaction network by modeling the gene dependency
+42,Xue Zhong,Network-based stratification analysis of 13 major cancer types using mutations in panels of cancer genes
+43,Yang Chen,Network-based Gene Prediction for Plasmodium falciparum Malaria Towards Genetics-based Drug Discovery
+44,Yang Xiang,Building integrated ontological knowledge structures with efficient approximation algorithms
+45,Yanhui Liang,A Framework for 3D Vessel Analysis with Whole Slide Images of Serial Liver Sections
+46,Yizhe Zhang,A de novo motif finding approach combining genomic sequence and heterogeneous genome-wide signatures
+47,Yu-Chiao Chiu,Co-modulation analysis of gene regulation in breast cancer reveals complex interplay between ESR1 and ERBB2 genes
+48,Yu-Ching Hsu, A gene set approach to analyze copy number alterations profiles of breast cancer
+49,Yukun Chen,CLASSIFICATION OF CANCER PRIMARY SITES USING MACHINE LEARNING AND SOMATIC MUTATIONS 
+50,Yunji Wang,A novel unsupervised feature selection method for early biomarkers discovery post myocardial infarction
